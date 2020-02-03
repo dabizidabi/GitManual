@@ -10,5 +10,22 @@ git log -1 -p
 git diff --staged
 .gitignore (ignore files *.log logs/ bla bla lba)
 git remote set-url origin #change url in git repository
+git branch fix_error | git checkout -b fix_error #create branch
+git chechout fix_error #switch branch
+git branch -d fix_error #delete branch
+git merge fix_error #merge branch fix_error to master
+
+git checkout  11d859532fe669a421b8f52bd083def498aff898 #returned file history
+git checkout master
+
+#change old commit
+git commit --amend
+
+#back to previos commit
+git reset --hard HEAD~2 #back on 2 commits
+
+#clear log 
+git reset --soft HEAD~3 #reset log on 3 commits
+
 
 add repo key: ssh-keygen
