@@ -9,5 +9,6 @@ git push >>
 git log -1 -p
 git diff --staged
 .gitignore (ignore files *.log logs/ bla bla lba)
+git remote set-url origin #change url in git repository
 
 add repo key: ssh-keygen
