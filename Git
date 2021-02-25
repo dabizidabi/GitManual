@@ -31,3 +31,5 @@ git reset --soft HEAD~3 #reset log on 3 commits
 git push origin --delete test_task09
 
 add repo key: ssh-keygen
+
+git config credential.helper store
